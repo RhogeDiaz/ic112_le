@@ -46,6 +46,7 @@ function App() {
 			  <Route path="/personalinsight" element={<PersonalInsight />} />
 			</Routes>
 		  </BrowserRouter>
+		  <Footer />
 		</div>
 	  </div>
 	);

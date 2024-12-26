@@ -2,10 +2,10 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <>
-      <div className='flex w-full justify-center items-center'>this is the mf homepage homie</div>
+    <div className=' h-4/6 pt-48 pb-48'>
+      <div className='flex w-full justify-center items-center'>Contents coming soon!</div>
       
-    </>    
+    </div>    
   )
 }
 
