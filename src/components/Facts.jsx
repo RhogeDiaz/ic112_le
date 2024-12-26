@@ -10,16 +10,14 @@ const Facts = () => {
       <div className="inset-0 backdrop-blur-sm"></div>
 
       {/* Centered Scrollable Content */}
-      <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="relative z-10 flex items-center justify-center h-full" data-aos="zoom-in">
         <div className="w-3/4 md:w-1/2 h-2/3 bg-white/50 backdrop-blur-md rounded-lg shadow-lg overflow-y-auto p-6">
           <h1 className="text-2xl font-bold text-center font-helvetica text-black mb-4">FUN FACTS</h1>
-          
-          {/* Images with size constraints */}
           <div className="flex flex-col gap-20">
             <div className="flex flex-col items-center">
               <img
                 className="w-full max-w-xs h-auto rounded-md object-cover"
-                src="public/images/global_coverage.jpg"
+                src="/images/global_coverage.jpg"
                 alt="Global Coverage"
               />
               <p className="text-gray-800 text-justify mt-2 md:px-8">
@@ -29,7 +27,7 @@ const Facts = () => {
             <div className="flex flex-col items-center">
             <img
               className="w-full max-w-xs h-40 md:h-52 rounded-md object-cover object-center"
-              src="public/images/inside_planes.jpg"
+              src="/images/inside_planes.jpg"
               alt="Satellite Internet on Planes"
             />
               <p className="text-gray-800 text-justify mt-2 md:px-8">
@@ -39,7 +37,7 @@ const Facts = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-full max-w-xs h-auto rounded-md object-cover"
-                src="public/images/astronaut_internet.jpg"
+                src="/images/astronaut_internet.jpg"
                 alt="Astronaut Internet"
               />
               <p className="text-gray-800 text-justify mt-2 md:px-8">
@@ -49,7 +47,7 @@ const Facts = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-full max-w-xs h-auto rounded-md object-cover"
-                src="public/images/satellite.jpg"
+                src="/images/satellite.jpg"
                 alt="Evolving Satellites"
               />
               <p className="text-gray-800 text-justify mt-2 md:px-8">
@@ -59,7 +57,7 @@ const Facts = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-full max-w-xs h-auto rounded-md object-cover"
-                src="public/images/balloon.jpg"
+                src="/images/balloon.jpg"
                 alt="High Altitude Balloons"
               />
               <p className="text-gray-800 text-justify mt-2 md:px-8">

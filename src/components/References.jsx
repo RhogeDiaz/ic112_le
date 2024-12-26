@@ -7,10 +7,10 @@ const References = () => {
       <div className="inset-0 backdrop-blur-sm"></div>
 
       {/* Centered Scrollable Content */}
-      <div className="relative z-10 flex items-center flex-col justify-center h-full">
-        <div>Click each reference to access the sources.</div>
+      <div className="relative z-10 flex items-center flex-col justify-center h-full text-gray-800" data-aos="zoom-in">
+        <div className='text-white'>Click each reference to access the sources.</div>
         <div className="w-3/4 md:w-1/2 h-2/3 bg-white/50 backdrop-blur-md rounded-lg shadow-lg overflow-y-auto p-6">
-        <ul className='flex flex-col gap-4 items-center'>
+        <ul className='flex flex-col gap-4 items-center md:items-start'>
             <li>
                 <a href="https://www.academia.edu/85025015/Handbook_of_Satellite_Applications">Camacho, S. (2013). Handbook of Satellite Applications. Academia.edu.</a>
             </li>

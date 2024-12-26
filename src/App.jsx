@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
 import HomePage from './components/HomePage';
 import Intro from './components/Intro';
@@ -13,12 +13,21 @@ import { FaHome } from "react-icons/fa";
 import { HiOutlineCheckBadge } from "react-icons/hi2";
 import { LuBadgeX } from "react-icons/lu";
 import { FaNewspaper } from "react-icons/fa6";
+import AOS from 'aos';
 import '../src/index.css';
 
 
 
 
 function App() {
+	useEffect(() => {
+		AOS.init({
+		duration: 1000, 
+		easing: 'ease-in-out', 
+		once: true, 
+		});
+	}, []);
+	  
 	return (
 	  <div className="relative min-h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/public/images/bg.jpg" }}>
 		<div className="absolute inset-0 "></div>

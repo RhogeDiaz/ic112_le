@@ -7,7 +7,7 @@ const PersonalInsight = () => {
       <div className="inset-0 backdrop-blur-sm"></div>
 
       {/* Centered Scrollable Content */}
-      <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="relative z-10 flex items-center justify-center h-full" data-aos="zoom-in">
         <div className="w-3/4 md:w-1/2 h-2/3 bg-white/50 backdrop-blur-md rounded-lg shadow-lg overflow-y-auto p-6">
           <h1 className="text-2xl font-bold text-center font-helvetica text-black mb-4">MY INSIGHTS</h1>
           <div className='flex flex-col gap-4'>

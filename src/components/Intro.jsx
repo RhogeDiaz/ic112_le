@@ -7,10 +7,9 @@ const Intro = () => {
       <div className="inset-0 backdrop-blur-sm"></div>
 
       {/* Centered Scrollable Content */}
-      <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="relative z-10 flex items-center justify-center h-full" data-aos="zoom-in">
         <div className="w-3/4 md:w-1/2 h-2/3 bg-white/50 backdrop-blur-md rounded-lg shadow-lg overflow-y-auto p-6">
           <h1 className="text-2xl font-bold text-center font-helvetica text-black mb-4">INTRODUCTION</h1>
-          {/* Repeated content for demonstrating scroll */}
           <p className="text-gray-800 mb-3 text-justify">The satellite internet is a technology that uses satellites orbiting the Earth to provide internet access. This type of internet service is especially useful in remote and rural areas where traditional wired connections are not available.</p>
           <p className="text-gray-800 mb-3 text-justify font-bold pt-4">FIRST AND FOREMOST, WHAT'S A SATELLITE?</p>
           <p className="text-gray-800 mb-3 text-justify">A satellite is a man-made object launched into space to orbit the Earth. These satellites are equipped with various technologies, including solar panels for power, transponders for communication, and antennas for sending and receiving signals.</p>
@@ -34,7 +33,7 @@ const Intro = () => {
               controls
               className="w-full rounded-lg shadow-md"
             >
-              <source src="/public/videos/How Does Satellite Internet Work_ (Starlink).mp4" type="video/mp4" />
+              <source src="/videos/How Does Satellite Internet Work_ (Starlink).mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className='text-gray-800 text-center'><i>Courtesy: Tech Index</i></div>
