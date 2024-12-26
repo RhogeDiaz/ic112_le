@@ -36,7 +36,7 @@ const References = () => {
             </li>
 
             <li>
-                <a href="https://www.youtube.com/watch?v=xGSucWFkWT8">How. (2023, September 29). How Does Satellite Internet Work? (Starlink). YouTube.</a>
+                <a href="https://www.youtube.com/watch?v=xGSucWFkWT8">Tech Index. (2023, September 29). How Does Satellite Internet Work? (Starlink). YouTube.</a>
             </li>
         </ul>
         </div>
