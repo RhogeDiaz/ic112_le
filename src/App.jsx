@@ -6,6 +6,7 @@ import Facts from './components/Facts';
 import Effects from './components/effects';
 import PersonalInsight from './components/PersonalInsight';
 import Footer from './components/Footer';
+import References from './components/References';
 import { MdOutlineQuestionMark } from "react-icons/md";
 import { FaClipboardList } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
@@ -39,11 +40,12 @@ function App() {
 			  </ul>
 			</div>
 			<Routes>
-			  <Route path="/" element={<HomePage />} />
-			  <Route path="/intro" element={<Intro />} />
-			  <Route path="/facts" element={<Facts />} />
-			  <Route path="/effects" element={<Effects />} />
-			  <Route path="/personalinsight" element={<PersonalInsight />} />
+				<Route path="/" element={<HomePage />} />
+				<Route path="/intro" element={<Intro />} />
+				<Route path="/facts" element={<Facts />} />
+				<Route path="/effects" element={<Effects />} />
+				<Route path="/personalinsight" element={<PersonalInsight />} />
+				<Route path="/references" element={<References />} />
 			</Routes>
 		  </BrowserRouter>
 		  <Footer />

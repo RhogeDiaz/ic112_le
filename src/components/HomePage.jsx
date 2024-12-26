@@ -2,9 +2,11 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div className=' h-4/6 pt-48 pb-48'>
-      <div className='flex w-full justify-center items-center'>
-        <p className=' text-4xl font-bold font-helvetica'>THE <p className=' text-[#dac770]'>SATELLITE</p> INTERNET</p>
+    <div className='pt-48'>
+      <div className='flex flex-col gap-4 w-full justify-center items-center'>
+        <p className=' flex-wrap px-4 text-4xl font-bold font-helvetica lg:text-6xl xxl:text-8xl'>THE <span className=' text-[#dac770]'>SATELLITE</span> INTERNET</p>
+        <p className=' flex-wrap px-4 text-md font-bold font-helvetica lg:text-2xl'>THE INVISIBLE HIGHWAYS OF DIGITAL INFORMATION</p>
+      
       </div>
     </div>    
   )
