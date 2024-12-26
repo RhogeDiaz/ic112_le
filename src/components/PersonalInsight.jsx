@@ -9,7 +9,7 @@ const PersonalInsight = () => {
       {/* Centered Scrollable Content */}
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="w-3/4 md:w-1/2 h-2/3 bg-white/50 backdrop-blur-md rounded-lg shadow-lg overflow-y-auto p-6">
-          <h1 className="text-2xl font-bold text-center text-black mb-4">My Insights</h1>
+          <h1 className="text-2xl font-bold text-center font-helvetica text-black mb-4">MY INSIGHTS</h1>
           <p className="text-gray-800 mb-3">
             Welcome to the introduction page! This section is designed to remain within the static viewport, while the content in this box is scrollable.
           </p>
