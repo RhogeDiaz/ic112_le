@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
 import HomePage from './components/HomePage';
 import Intro from './components/Intro';
 import Facts from './components/Facts';
-import Effects from './components/effects';
+import Effects from './components/Effects';
 import PersonalInsight from './components/PersonalInsight';
 import Footer from './components/Footer';
 import References from './components/References';
