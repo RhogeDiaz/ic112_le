@@ -46,9 +46,10 @@ function App() {
 				<Route path="/effects" element={<Effects />} />
 				<Route path="/personalinsight" element={<PersonalInsight />} />
 				<Route path="/references" element={<References />} />
+				<Route path='/footer' element={<Footer />} />
 			</Routes>
+			<Footer />
 		  </BrowserRouter>
-		  <Footer />
 		</div>
 	  </div>
 	);
