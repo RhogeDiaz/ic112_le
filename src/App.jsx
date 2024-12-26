@@ -29,7 +29,7 @@ function App() {
 	}, []);
 	  
 	return (
-	  <div className="relative min-h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/public/images/bg.jpg" }}>
+	  <div className="relative min-h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/bg.jpg" }}>
 		<div className="absolute inset-0 "></div>
   
 		<div className="relative z-10">
